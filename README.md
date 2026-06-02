@@ -1,6 +1,7 @@
 # FNP-Sales-Analysis 📊
 
 ## Project Overview
+
 This project focuses on analyzing FNP (Ferns N Petals) sales data using Microsoft Excel. The objective is to identify sales trends, customer purchasing behavior, product performance, and revenue patterns through an interactive dashboard. The insights generated help businesses make informed decisions and improve overall performance.
 
 ---
@@ -21,23 +22,32 @@ F --> G[Business Insights & Recommendations]
 
 ## Dataset Used
 
+Files included in this repository:
+
+- customers.csv
+- orders.csv
+- products.csv
+- project_fnp.xlsx
+
 Dataset Link:
 https://github.com/OmkarTatkare/FNP-Sales-Analysis/blob/main/project_fnp.xlsx
 
-### Dataset Description
+---
+
+## Dataset Description
 
 | Column Name | Description |
 |------------|-------------|
 | Order_ID | Unique identifier for each order |
 | Customer_ID | Unique customer identifier |
-| Order_Date | Date when order was placed |
-| Delivery_Date | Date when order was delivered |
-| Product_Name | Product purchased |
+| Order_Date | Date when the order was placed |
+| Delivery_Date | Date when the order was delivered |
+| Product_Name | Name of the product purchased |
 | Category | Product category |
-| Occasion | Occasion associated with purchase |
+| Occasion | Occasion associated with the purchase |
 | City | Customer city |
 | Quantity | Quantity ordered |
-| Revenue | Revenue generated from order |
+| Revenue | Revenue generated from the order |
 
 ---
 
@@ -59,17 +69,12 @@ https://github.com/OmkarTatkare/FNP-Sales-Analysis/blob/main/project_fnp.xlsx
 ```text
 FNP-Sales-Analysis/
 │
-├── data/
-│   └── project_fnp.xlsx
-│
-├── images/
-│   └── dashboard.png
-│
-├── reports/
-│   └── project_summary.pdf
-│
 ├── README.md
-└── LICENSE
+├── dashboard.png
+├── customers.csv
+├── orders.csv
+├── products.csv
+└── project_fnp.xlsx
 ```
 
 ---
@@ -91,55 +96,64 @@ FNP-Sales-Analysis/
 
 ## Data Cleaning & Preprocessing
 
-- Verified dataset for missing values.
+- Verified dataset for missing values and inconsistencies.
 - Removed duplicate records.
 - Standardized date formats.
-- Checked data consistency across sheets.
+- Checked data consistency across all datasets.
 - Validated revenue and order values.
-- Prepared data for Pivot Table analysis.
+- Prepared data for Pivot Table analysis and dashboard creation.
 
 ---
 
 ## Dashboard Features
 
-- KPI Cards
-  - Total Orders
-  - Total Revenue
-  - Average Customer Spend
-  - Average Order Delivery Time
+### KPI Cards
+- Total Orders
+- Total Revenue
+- Average Customer Spend
+- Average Order Delivery Time
 
-- Interactive Slicers
-  - Delivery Date
-  - Order Date
-  - Occasion
+### Interactive Filters
+- Order Date
+- Delivery Date
+- Occasion
 
-- Dynamic Charts
-  - Revenue by Occasion
-  - Revenue by Month
-  - Revenue by Category
-  - Revenue by Hour
-  - Top Products by Revenue
-  - Top Cities by Orders
+### Dynamic Visualizations
+- Revenue by Occasion
+- Revenue by Month
+- Revenue by Category
+- Revenue by Hour
+- Top Products by Revenue
+- Top Cities by Orders
 
 ---
 
 ## Dashboard
 
-![FNP Dashboard](https://github.com/OmkarTatkare/FNP-Sales-Analysis/blob/main/Screenshot%202026-05-17%20154144.png)
+![FNP Dashboard](dashboard.png)
 
 ---
 
 ## Key Insights
 
-- Anniversary and Raksha Bandhan generated the highest revenue.
+- Anniversary and Raksha Bandhan generated the highest revenue among all occasions.
 - February and August recorded peak sales performance.
-- Colors and Soft Toys were the top revenue-generating categories.
-- Evening hours showed the highest customer activity.
-- Imphal and Kavali ranked among the top cities based on order volume.
+- Colors and Soft Toys contributed the highest category revenue.
+- Peak order activity was observed during evening hours.
+- Imphal and Kavali ranked among the top-performing cities based on order volume.
 - Average customer spending was approximately ₹3,520.
+- The dashboard enables easy comparison of sales trends across occasions, months, and product categories.
 
 ---
 
 ## Final Conclusion
 
-The interactive Excel dashboard provides valuable insights into customer behavior, seasonal demand patterns, and product performance. By leveraging Pivot Tables, Pivot Charts, and dynamic filtering, businesses can identify growth opportunities, optimize inventory planning, and improve marketing strategies through data-driven decision-making.
+The interactive Excel dashboard provides valuable insights into customer purchasing behavior, seasonal sales patterns, and product performance. By leveraging Pivot Tables, Pivot Charts, KPI Cards, and dynamic filtering, businesses can identify growth opportunities, optimize inventory planning, and improve marketing strategies through data-driven decision-making.
+
+---
+
+## Author
+
+**Omkar Tatkare**
+
+GitHub: https://github.com/OmkarTatkare
